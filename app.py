@@ -1,6 +1,5 @@
 import streamlit as st
 from PIL import Image
-import tensorflow
 import keras 
 
 st.title("تشخيص فيروس كوفيد 19 المستجد من الاشعه السينية")
