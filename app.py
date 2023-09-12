@@ -4,10 +4,9 @@ import keras
 
 
 link=' [based on our model](https://pesquisa.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/pt/covidwho-1458945?lang=en#main_container)'
-link1=' [ your comments and suggestions would be greatly appreciated at: ](mdbaz01@gamil.com)'
+
 st.title("Diagnose COVID-19 based on X-ray images by AI")
 st.markdown(link,unsafe_allow_html=True)
-st.markdown(link1,unsafe_allow_html=True)
 
 
 
