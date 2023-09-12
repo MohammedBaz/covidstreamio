@@ -9,7 +9,8 @@ import keras
 #st.markdown(link,unsafe_allow_html=True)
 #st.write("your comments and suggestions would be greatly appreciated at:")
 #st.markdown('<a href="mailto:mdbaz01@gamil.com">mdbaz01@gamil.com</a>', unsafe_allow_html=True)
-st.write("check out this [link](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)")
+with st.header:
+        st.write("check out this [link](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)")
 
 
 from BackEndFunctions import CNNClassifier #This is the name of our file/function
