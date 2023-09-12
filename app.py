@@ -4,7 +4,7 @@ import keras
 
 
 
-st.title("Diagnosis of the new Covid 19 virus based on X-ray images by AI, based on our model")
+st.title("Diagnose COVID-19 based on X-ray images by AI")
 link='based on our model [based on our model, for more details](https://pesquisa.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/pt/covidwho-1458945?lang=en#main_container)'
 st.markdown(link,unsafe_allow_html=True)
 
