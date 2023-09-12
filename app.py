@@ -7,7 +7,7 @@ link=' [based on our model](https://pesquisa.bvsalud.org/global-literature-on-no
 
 st.title("Diagnose COVID-19 using X-ray by AI")
 st.markdown(link,unsafe_allow_html=True)
-st.write("your comments and suggestions would be greatly appreciated at:")
+st.subtitle.write("your comments and suggestions would be greatly appreciated at:")
 st.markdown('<a href="mailto:mdbaz01@gamil.com">mdbaz01@gamil.com</a>', unsafe_allow_html=True)
 
 
