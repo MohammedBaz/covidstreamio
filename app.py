@@ -9,7 +9,7 @@ import keras
 #st.markdown(link,unsafe_allow_html=True)
 #st.write("your comments and suggestions would be greatly appreciated at:")
 #st.markdown('<a href="mailto:mdbaz01@gamil.com">mdbaz01@gamil.com</a>', unsafe_allow_html=True)
-st.write('<span style="font-size: 24px;">Diagnose COVID-19 using X-ray by AI based on our model.[link](https://pesquisa.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/pt/covidwho-1458945?lang=en#main_container)</span>', unsafe_allow_html=True)
+st.write('<span style="font-size: 24px;">Diagnose COVID-19 using X-ray by AI based on our [model.](https://pesquisa.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/pt/covidwho-1458945?lang=en#main_container)</span>', unsafe_allow_html=True)
 
 st.write("##Diagnose COVID-19 using X-ray by AI based on our model [link](https://pesquisa.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/pt/covidwho-1458945?lang=en#main_container)")
 
