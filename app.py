@@ -5,7 +5,8 @@ import keras
 
 
 st.title("Diagnosis of the new Covid 19 virus based on X-ray images by AI, based on our model, for more details")
-st.subheader('<a href="https://pesquisa.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/pt/covidwho-1458945?lang=en#main_container">mdbaz01@gamil.com</a>', unsafe_allow_html=True)
+link='check out this [based on our model, for more details](https://pesquisa.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/pt/covidwho-1458945?lang=en#main_container)'
+st.markdown(link,unsafe_allow_html=True)
 
 
 from BackEndFunctions import CNNClassifier #This is the name of our file/function
