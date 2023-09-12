@@ -10,7 +10,7 @@ import keras
 #st.write("your comments and suggestions would be greatly appreciated at:")
 #st.markdown('<a href="mailto:mdbaz01@gamil.com">mdbaz01@gamil.com</a>', unsafe_allow_html=True)
 
-st.write("Diagnose COVID-19 using X-ray by AI based on our model [link](https://pesquisa.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/pt/covidwho-1458945?lang=en#main_container)")
+st.write("##Diagnose COVID-19 using X-ray by AI based on our model [link](https://pesquisa.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/pt/covidwho-1458945?lang=en#main_container)")
 
 
 from BackEndFunctions import CNNClassifier #This is the name of our file/function
