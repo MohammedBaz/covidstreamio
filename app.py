@@ -10,7 +10,7 @@ st.markdown(link,unsafe_allow_html=True)
 
 
 from BackEndFunctions import CNNClassifier #This is the name of our file/function
-uploaded_file = st.file_uploader("الرجاء تحميل الصورة", type=['png','jpeg']) #Add file uploader to take the user's input. limited to .png files only
+uploaded_file = st.file_uploader("Please upload image", type=['png','jpeg']) #Add file uploader to take the user's input. limited to .png files only
 if uploaded_file is not None:
         image = Image.open(uploaded_file)                           #Assign the uploded image into a variable dubbed image     
         st.image(image, caption='جاري تحميل الصورة الرجاء الانتظار', use_column_width=True)     # let user read some word while png is displayed
