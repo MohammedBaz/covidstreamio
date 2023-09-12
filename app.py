@@ -2,8 +2,11 @@ import streamlit as st
 from PIL import Image
 import keras 
 
-st.title("تشخيص فيروس كوفيد 19 المستجد من الاشعه السينية")
-st.header("يعتمد هذا التشخيص علي نموذج مبسط تم تطويره باستخدام خوارزميات الذكاء الاصطناعي")
+
+
+st.title("Diagnosis of the new Covid 19 virus based on X-ray images by AI, based on our model, for more details")
+st.sidebar.markdown('<a href="https://pesquisa.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/pt/covidwho-1458945?lang=en#main_container">mdbaz01@gamil.com</a>', unsafe_allow_html=True)
+
 
 from BackEndFunctions import CNNClassifier #This is the name of our file/function
 uploaded_file = st.file_uploader("الرجاء تحميل الصورة", type=['png','jpeg']) #Add file uploader to take the user's input. limited to .png files only
